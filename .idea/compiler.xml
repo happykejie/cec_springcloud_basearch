@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbootdemo-test" />
+        <module name="springbootdemo-consumer" />
+        <module name="springbootdemo-product" />
+        <module name="springbootdemo-entity" />
+        <module name="desing-pattern" />
+        <module name="springbootdemo-eureka" />
+        <module name="springbootdemo-foundation" />
+        <module name="springbootdemo-rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="desing-pattern" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
+      <module name="springbootdemo-consumer" target="1.8" />
+      <module name="springbootdemo-entity" target="1.8" />
+      <module name="springbootdemo-eureka" target="1.8" />
+      <module name="springbootdemo-foundation" target="1.8" />
+      <module name="springbootdemo-product" target="1.8" />
+      <module name="springbootdemo-rabbitmq" target="1.8" />
+      <module name="springbootdemo-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="desing-pattern" options="-parameters" />
+      <module name="springbootdemo-consumer" options="-parameters" />
+      <module name="springbootdemo-entity" options="-parameters" />
+      <module name="springbootdemo-eureka" options="-parameters" />
+      <module name="springbootdemo-foundation" options="-parameters" />
+      <module name="springbootdemo-product" options="-parameters" />
+      <module name="springbootdemo-rabbitmq" options="-parameters" />
+      <module name="springbootdemo-test" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+#server:
+#  servlet:
+#  #
+#    context-path: /consumer
+#    #
+#  port: 7001
+spring:
+  redis:
+    cluster:
+
+      expire-seconds: 120
+
+      command-timeout: 5000
+
+      nodes: namenode22:6379,datanode23:6379,datanode24:6379,datanode25:6379,datanode26:6379,datanode27:6379
+  application:
+
+    name: consumer-server
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysql?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 5Wy43g&mvI+u
+    #
+    #type: com.alibaba.druid.pool.DruidDataSource
+  main:
+    allow-bean-definition-overriding: true
+#e
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5060/eureka/eureka
+server:
+  servlet:
+
+    context-path: /consumer
+
+  port: 7001
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+name: name
