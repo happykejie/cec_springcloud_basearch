@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: product-server
+server:
+  port: 7003
+  servlet:
+    context-path: /product
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://localhost:5060/eureka/eureka
+       defaultZone: http://eureka5060.com:5060/eureka/eureka,http://eureka5061.com:5061/eureka/eureka  #注册集群版
+#   表示是否将自己注册进EurakaServer 默认是True
+    register-with-eureka: true
+    #是否从Euraka 抓取已有的注册信息，默认为true,单节点无所谓，集群必须设置才能配合ribbon 使用负载均衡
+    fetch-registry: true
+    instance:
+      instaance-id: product7003
+#      prefer-ip-address:　true #访问路径可以显示IP　鼠标放到名称上可以显示IP
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:7070/eureka/eureka

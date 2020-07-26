@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/desing-pattern/desing-pattern.iml" filepath="$PROJECT_DIR$/desing-pattern/desing-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprinbootdemo-enreka5061/sprinbootdemo-enreka5061.iml" filepath="$PROJECT_DIR$/sprinbootdemo-enreka5061/sprinbootdemo-enreka5061.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-consumer/springbootdemo-consumer.iml" filepath="$PROJECT_DIR$/springbootdemo-consumer/springbootdemo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-entity/springbootdemo-entity.iml" filepath="$PROJECT_DIR$/springbootdemo-entity/springbootdemo-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-eureka/springbootdemo-eureka.iml" filepath="$PROJECT_DIR$/springbootdemo-eureka/springbootdemo-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-foundation/springbootdemo-foundation.iml" filepath="$PROJECT_DIR$/springbootdemo-foundation/springbootdemo-foundation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-product/springbootdemo-product.iml" filepath="$PROJECT_DIR$/springbootdemo-product/springbootdemo-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo-product7003/springbootdemo-product7003.iml" filepath="$PROJECT_DIR$/springbootdemo-product7003/springbootdemo-product7003.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-rabbitmq/springbootdemo-rabbitmq.iml" filepath="$PROJECT_DIR$/springbootdemo-rabbitmq/springbootdemo-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootdemo-test/springbootdemo-test.iml" filepath="$PROJECT_DIR$/springbootdemo-test/springbootdemo-test.iml" />
     </modules>

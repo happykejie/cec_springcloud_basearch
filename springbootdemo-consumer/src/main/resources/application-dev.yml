@@ -34,7 +34,15 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:5060/eureka/eureka
+#      defaultZone: http://localhost:5060/eureka/eureka
+      defaultZone: http://eureka5060.com:5060/eureka/eureka,http://eureka5061.com:5061/eureka/eureka  #注册集群版
+
+#   openfeign 模式是1秒，时间设置集成在ribbon 中
+ribbon:
+#    建立连接所需时间
+  ReadTimeout: 5000
+#   从服务读取到可用资源的时间
+  ConnectTimeout: 5000
 server:
   servlet:
 

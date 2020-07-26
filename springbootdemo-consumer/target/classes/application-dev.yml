@@ -34,7 +34,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:5060/eureka/eureka
+#      defaultZone: http://localhost:5060/eureka/eureka
+      defaultZone: http://eureka5060.com:5060/eureka/eureka,http://eureka5061.com:5061/eureka/eureka  #注册集群版
 server:
   servlet:
 
